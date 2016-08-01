@@ -1,0 +1,1 @@
+$(function(){function e(){var e=new Date,t=new Date;t.setDate(e.getDate()+1),t.setHours(10),t.setMinutes(0),t.setSeconds(0);var o=t-e.getTime(),a=(Math.floor(o/1e3/60/60/24),Math.floor(o/1e3/60/60%24)),n=Math.floor(o/1e3/60%60),s=Math.floor(o/1e3%60);$("#time").html(a),$("#minute").html(n),$("#second").html(s)}e(),setInterval(e,1e3)});
